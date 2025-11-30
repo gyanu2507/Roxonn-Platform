@@ -118,7 +118,7 @@ export const promotionalBountiesAPI = {
 
   // Get registered repositories (for creating bounties)
   getRepositories: async (): Promise<any[]> => {
-    return api.get<any[]>("/api/promotional/projects");
+    return api.get<any[]>("/api/promotional/repositories");
   },
 };
 
